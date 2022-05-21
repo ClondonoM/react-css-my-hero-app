@@ -1,3 +1,7 @@
 export const LoginScreen = () => {
-  return <div>LoginScreen</div>;
+  return (
+    <div>
+      <h1>LoginScreen</h1>
+    </div>
+  );
 };
