@@ -8,7 +8,7 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const imagePath = `/assets/img/${id}.jpg`;
+  const imagePath = `/assets/${id}.jpg`;
   return (
     <div className='col'>
       <div className='card'>
@@ -26,7 +26,7 @@ export const HeroCard = ({
               <p className='card-text'>
                 <small className='text-muted'>{first_appearance}</small>
               </p>
-              <Link to={`/heroes/${id}`}>More info...</Link>
+              <Link to={`/hero/${id}`}>More info...</Link>
             </div>
           </div>
         </div>
