@@ -8,8 +8,8 @@ export const Navbar = () => {
 
   return (
     <nav className='navbar navbar-expand-sm navbar-dark bg-dark'>
-      <Link className='navbar-brand' to='/'>
-        Asociaciones
+      <Link className='navbar-brand ms-3' to='/'>
+        My Hero App
       </Link>
 
       <div className='navbar-collapse'>
@@ -27,7 +27,7 @@ export const Navbar = () => {
       <div className='navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end'>
         <ul className='navbar-nav ml-auto'>
           <span className='nav-item nav-link text-info'>Carlos</span>
-          <button className='nav-item nav-link btn' onClick={handleLogout}>
+          <button className='nav-item nav-link btn me-3' onClick={handleLogout}>
             Logout
           </button>
         </ul>
